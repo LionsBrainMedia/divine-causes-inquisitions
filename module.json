@@ -1,0 +1,86 @@
+{
+  "id": "divine-causes-inquisitions",
+  "title": "Divine Causes and Inquisitions",
+  "description": "Divine Causes and Inquisitions, by Lion's Brain Media.",
+  "version": "1.0",
+  "authors": [
+    {"name": "W. Brian Lane" 
+    }
+  ],
+  "compatibility": {
+    "minimum": "10.285",
+    "verified": "10.285"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "4.0.6"
+      }
+    }]
+  },
+  "packs": [
+      {
+      "label": "Inquisitor",
+      "type": "Item",
+      "name": "inquisitor-items",
+      "path": "./packs/inquisitor-items.db",
+      "system": "pf2e",
+      "package": "divine-causes-inquisitions",
+      "private": false
+    },
+          {
+      "label": "Champion Reactions",
+      "type": "Item",
+      "name": "champion-reactions",
+      "path": "./packs/champion-reactions.db",
+      "system": "pf2e",
+      "package": "divine-causes-inquisitions",
+      "private": false
+    },
+          {
+      "label": "Champion Feats",
+      "type": "Item",
+      "name": "champion-feats",
+      "path": "./packs/champion-feats.db",
+      "system": "pf2e",
+      "package": "divine-causes-inquisitions",
+      "private": false
+    },
+          {
+      "label": "Divine Options for All",
+      "type": "Item",
+      "name": "divine-options-for-all",
+      "path": "./packs/divine-options-for-all.db",
+      "system": "pf2e",
+      "package": "divine-causes-inquisitions",
+      "private": false
+    }
+
+
+  ],
+    "flags": {
+    "divine-causes-inquisitions": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "condemnation": "Condemnation",
+          "inquisitor": "Inquisitor",
+          "judgment": "Judgment",
+          "plaudit": "Plaudit"
+        },
+        "spellTraits": {
+          "condemnation": "Condemnation",
+          "inquisitor": "Inquisitor",
+          "plaudit": "Plaudit",
+          "sentence": "Sentence"
+        }
+        }
+      }
+    },
+    
+  "url": "https://github.com/LionsBrainMedia/divine-causes-inquisitions",
+  "manifest": "https://raw.githubusercontent.com/LionsBrainMedia/divine-causes-inquisitions/master/module.json",
+  "download": "https://github.com/LionsBrainMedia/divine-causes-inquisitions/archive/refs/heads/main.zip"
+}

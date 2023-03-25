@@ -1,0 +1,13 @@
+{"_id":"==SUBLCASS ID==","img":"systems/pf2e/icons/features/classes/forensic-medicine-methodology.webp","name":"==NAME==","system":{"description":{"value":"==TEXT=="},"source":{"value":"Warfare Lore"},"traits":{"value":[],"rarity":"common","custom":""},"rules":[{"key":"GrantItem","uuid":"Compendium.warsmith-test.warsmith-test-items.==ID FOR FEAT=="}],"slug":"==NAME==-trade","schema":{"version":0.794,"lastMigration":null},"level":{"value":1},"featType":{"value":"classfeature"},"onlyLevel1":false,"maxTakable":1,"actionType":{"value":"passive"},"actionCategory":{"value":""},"actions":{"value":null},"prerequisites":{"value":[]},"location":null},"type":"feat","flags":{"core":{"sourceId":"Compendium.warsmith-test.warsmith-test-items.==SUBCLASS ID=="}},"effects":[],"folder":null,"sort":0,"ownership":{"default":0},"_stats":{"systemId":"pf2e","systemVersion":"4.2.6","coreVersion":"10.288","createdTime":null,"modifiedTime":1671746570045,"lastModifiedBy":"r1C8Zdxy0T54hKNQ"}}
+
+
+Playtest notes:
+ * 11 condemnations and 8 plaudits. I'd like to think these should be equitable but I also feel like condemnation will probably get more mileage. 
+ * Deity and INquisition class feature needs a different selection menu.
+ * Hylar Nix was VERY easy to build and I feel like he's already unique.
+ * Bulwark very situational based on party, since inquisitor doesn't start with much healing capacity.
+
+ * The change to temporary HP for plaudit was stellar. I brought Meresiel back up from dying using 2-action heal, judge, and then the temp HP kicked in.
+ * I didn't get to do much with my smite judgment because the monsters came after me. Might change that to "you or an ally"
+ * I did go down after 1 hit and 1 crit. But this is level 1, so...
+ * It was some interesting strategy deciding when to swap Judge claimant. I think the feats to get extra claimants are going to be essential. Probably just hardwire them.
